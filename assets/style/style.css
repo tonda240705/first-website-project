@@ -2,11 +2,12 @@
   margin: 0px;
   padding: 0px;
 }
-
+body {
+  background-color: white;
+}
 .navigation {
   display: grid;
   grid-template-columns: 40% 60%;
-  justify-content: center;
   align-items: center;
   text-align: center;
 
@@ -27,7 +28,7 @@
 .navigation_links a {
   color: black;
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .title {
@@ -35,19 +36,22 @@
 }
 
 .abt_sign {
-  font-size: 20px;
-  padding-top: 50px;
-  font-weight: 10;
-  letter-spacing: 1px;
+  font-size: 15px;
+  padding-top: 250px;
+  letter-spacing: 3px;
   text-align: center;
+  text-transform: uppercase;
+  font-family: "Varela Round", sans-serif;
 }
-.abt1 {
+.about1 {
   display: grid;
   grid-template-columns: 50% 40% 10%;
   padding-top: 200px;
 }
-.abt2 {
+.about2 {
   text-align: justify;
+  font-family: "Arapey", serif;
+  font-size: 16px;
 }
 .white_space {
   padding-top: 10px;
@@ -58,4 +62,29 @@
   margin-left: auto;
   margin-right: auto;
   height: 500px;
+}
+.white_space {
+  padding-top: 200px;
+}
+.contact_us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #333;
+  color: white;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-family: "Arapey", serif;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.back_to_top {
+  background-color: #333;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 0px;
+  top: 1000px;
+  right: 50px;
 }
